@@ -1,15 +1,15 @@
 // Write all your JavaScript and JQuery code in this file! :)
 $("#bigButton").on("click", function(){
-	$("#message").addClass('big')
+	$("#message").toggleClass('big')
 
 })
 
 $("#hideButton").on("click", function(){
-	$("#message").addClass('hidden')
+	$("#message").toggleClass('hidden')
 	
 })
 
 $("#rotateButton").on("click", function(){
-	$("#message").addClass('rotated')
+	$("#message").toggleClass('rotated')
 	
 })
